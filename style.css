@@ -1,0 +1,84 @@
+* {
+    color: rgb(231, 237, 242);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+
+/* Other background (14, 17, 22) borders (49, 54, 60) Icon color (126, 133, 143) */
+
+body {
+    background-color: rgb(2, 4, 9);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+form {
+    background-color: rgb(14, 17, 22);
+    height: 8vh;
+    width: 40vh;
+    border: rgb(49, 54, 60) solid 1px;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 7vh;
+    margin-top: -7vh;
+}
+
+input,
+button {
+    height: 40%;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+
+}
+
+input {
+    width: 50%;
+    background-color: rgb(50, 51, 54) ;
+    border: none;
+    padding: 0 0.6rem;
+}
+
+button {
+    width: 25%;
+    background-color: rgb(2, 4, 9) ;
+    border: rgb(49, 54, 60) solid 1px;
+}
+
+section {
+    background-color: rgb(14, 17, 22);
+    border: rgb(49, 54, 60) solid 1px;
+    border-radius: 1rem;
+    width: 40vh;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+img {
+    height: 30%;
+    width: 30%;
+}
+
+.user-details {
+    border: rgb(49, 54, 60) solid 1px;
+    border-radius: 0.5rem;
+    width: 50%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    letter-spacing: 3px;
+}
