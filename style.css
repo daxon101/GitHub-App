@@ -62,8 +62,9 @@ section {
 }
 
 img {
-    height: 30%;
-    width: 30%;
+    height: 40%;
+    width: 40%;
+    border-radius: 1rem;
 }
 
 .user-details {
@@ -74,7 +75,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     padding: 1rem;
 }
 
